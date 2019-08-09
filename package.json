@@ -1,0 +1,23 @@
+{
+  "name": "gps-t1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandrocodes/gps-t1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leandrocodes/gps-t1/issues"
+  },
+  "homepage": "https://github.com/leandrocodes/gps-t1#readme",
+  "dependencies": {
+    "bulma": "^0.7.5",
+    "node-sass": "^4.12.0"
+  }
+}
