@@ -23,10 +23,24 @@ $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
 
+html{
+    height: 100%;
+}
 .navbar-brand{
     .navbar-item{
         img{
             max-height: 3rem!important;
+        }
+    }
+}
+
+.hero{
+    height: 100%;
+    background-image: url(../img/bolo12.jpg);
+    background-size: cover;
+    .hero-body{
+        h2.subtitle{
+           /*  float: right; */
         }
     }
 }

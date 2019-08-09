@@ -1,6 +1,20 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito|Rubik&display=swap");
+html {
+  height: 100%;
+}
+
 .navbar-brand .navbar-item img {
   max-height: 3rem !important;
+}
+
+.hero {
+  height: 100%;
+  background-image: url(../img/bolo12.jpg);
+  background-size: cover;
+}
+
+.hero .hero-body h2.subtitle {
+  /*  float: right; */
 }
 
 /*! bulma.io v0.7.5 | MIT License | github.com/jgthms/bulma */
