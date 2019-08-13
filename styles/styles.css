@@ -1,6 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Nunito|Rubik&display=swap");
-html {
+@import url("https://fonts.googleapis.com/css?family=Courgette|Patua+One&display=swap");
+body, html {
   height: 100%;
+}
+
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 .navbar-brand .navbar-item img {
@@ -11,10 +16,32 @@ html {
   height: 100%;
   background-image: url(../img/bolo12.jpg);
   background-size: cover;
+  background-position: center;
 }
 
-.hero .hero-body h2.subtitle {
-  /*  float: right; */
+.hero .hero-body {
+  padding: 15px !important;
+}
+
+.hero .hero-body .title {
+  color: #CC9BB1;
+  text-shadow: .15px .25px .25px #00000070;
+  font-family: "Courgette", cursive;
+  font-size: 3.75rem;
+}
+
+.scroll-down {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #CC9BB1;
+  /* position: absolute; */
+  bottom: 15px;
+  margin: 15px auto;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+  color: #f9f9f9;
 }
 
 /*! bulma.io v0.7.5 | MIT License | github.com/jgthms/bulma */
@@ -387,7 +414,7 @@ button,
 input,
 select,
 textarea {
-  font-family: "Rubik", sans-serif;
+  font-family: "Patua One", cursive;
 }
 
 code,
@@ -1145,15 +1172,15 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 }
 
 .is-family-primary {
-  font-family: "Rubik", sans-serif !important;
+  font-family: "Patua One", cursive !important;
 }
 
 .is-family-secondary {
-  font-family: "Rubik", sans-serif !important;
+  font-family: "Patua One", cursive !important;
 }
 
 .is-family-sans-serif {
-  font-family: "Rubik", sans-serif !important;
+  font-family: "Patua One", cursive !important;
 }
 
 .is-family-monospace {

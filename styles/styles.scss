@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 // Import a Google Font
-@import url('https://fonts.googleapis.com/css?family=Nunito|Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courgette|Patua+One&display=swap');
 
 // Set your brand colors
 $violet: #CC9BB1;
@@ -11,7 +11,8 @@ $beige-light: #D0D1CD;
 $beige-lighter: #f9f9f9;
 
 // Update Bulma's global variables
-$family-sans-serif: "Rubik", sans-serif;
+$family-sans-serif: "Patua One", cursive;
+$family-sans-cursive: "Courgette", cursive;
 $grey-dark: $brown;
 $grey-light: $beige-light;
 $primary: $violet;
@@ -23,9 +24,14 @@ $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
 
-html{
+body, html{
     height: 100%;
 }
+
+.navbar{
+    position: sticky;
+}
+
 .navbar-brand{
     .navbar-item{
         img{
@@ -38,11 +44,31 @@ html{
     height: 100%;
     background-image: url(../img/bolo12.jpg);
     background-size: cover;
+    background-position: center;
+
     .hero-body{
-        h2.subtitle{
-           /*  float: right; */
+        padding: 15px!important;
+        .title{
+            color: $primary;
+            text-shadow: .15px .25px .25px #00000070;
+            font-family: $family-sans-cursive;
+            font-size: 3.75rem;
         }
     }
+}
+
+.scroll-down{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: $primary;
+    /* position: absolute; */
+    bottom: 15px;
+    margin: 15px auto;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+    color: $beige-lighter;
 }
 
 @import '../node_modules/bulma/bulma.sass'
