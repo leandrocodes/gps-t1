@@ -26,6 +26,15 @@ $input-shadow: none;
 
 body, html{
     height: 100%;
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(20vh);
+    scroll-snap-type: y mandatory;
+}
+
+section{
+    height: 100vh;
+    scroll-snap-align: start;
+    position: relative;
 }
 
 .navbar{
@@ -40,12 +49,11 @@ body, html{
     }
 }
 
-.hero{
+.hero.is-transparent{
     height: 100%;
     background-image: url(../img/bolo12.jpg);
     background-size: cover;
     background-position: center;
-
     .hero-body{
         padding: 15px!important;
         .title{

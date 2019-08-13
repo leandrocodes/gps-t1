@@ -1,6 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Courgette|Patua+One&display=swap");
 body, html {
   height: 100%;
+  -ms-scroll-snap-type: mandatory;
+      scroll-snap-type: mandatory;
+  -ms-scroll-snap-points-y: repeat(20vh);
+      scroll-snap-points-y: repeat(20vh);
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: start;
+  position: relative;
 }
 
 .navbar {
@@ -12,18 +24,18 @@ body, html {
   max-height: 3rem !important;
 }
 
-.hero {
+.hero.is-transparent {
   height: 100%;
   background-image: url(../img/bolo12.jpg);
   background-size: cover;
   background-position: center;
 }
 
-.hero .hero-body {
+.hero.is-transparent .hero-body {
   padding: 15px !important;
 }
 
-.hero .hero-body .title {
+.hero.is-transparent .hero-body .title {
   color: #CC9BB1;
   text-shadow: .15px .25px .25px #00000070;
   font-family: "Courgette", cursive;
