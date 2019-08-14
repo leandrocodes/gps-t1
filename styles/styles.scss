@@ -95,4 +95,19 @@ section{
     }
 }
 
-@import '../node_modules/bulma/bulma.sass'
+.item{
+    margin: 2rem 1rem;
+    img{
+        border-radius: 4px;
+        box-shadow: 1px 1px 2px $beige-lighter;
+    }
+        
+}
+
+.section.vitrine{
+    height: 100vh;
+    background-color: $primary;
+}
+
+@import '../node_modules/bulma/bulma.sass';
+@import '../node_modules/bulma-carousel/src/sass/index.sass'
