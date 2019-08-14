@@ -79,4 +79,20 @@ section{
     color: #f9f9f9;
 }
 
+.team{
+    .scroll-down{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: $beige-lighter;
+        /* position: absolute; */
+        bottom: 15px;
+        margin: 15px auto;
+        text-align: center;
+        font-size: 20px;
+        line-height: 50px;
+        color: $primary;
+    }
+}
+
 @import '../node_modules/bulma/bulma.sass'
