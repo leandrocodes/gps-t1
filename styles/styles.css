@@ -7,11 +7,10 @@ body, html {
       scroll-snap-points-y: repeat(20vh);
   -ms-scroll-snap-type: y mandatory;
       scroll-snap-type: y mandatory;
-}
-
-.conteudo {
   background-image: -webkit-gradient(linear, right bottom, left top, from(#cc9bb1), color-stop(#c798b2), color-stop(#c296b4), color-stop(#bc93b5), color-stop(#b591b6), color-stop(#b997bc), color-stop(#bd9dc1), color-stop(#c1a3c7), color-stop(#d1b3d3), color-stop(#e0c3df), color-stop(#f0d3ec), to(#ffe4f9));
   background-image: linear-gradient(to left top, #cc9bb1, #c798b2, #c296b4, #bc93b5, #b591b6, #b997bc, #bd9dc1, #c1a3c7, #d1b3d3, #e0c3df, #f0d3ec, #ffe4f9);
+  background-attachment: fixed;
+  background-size: 100%;
 }
 
 section {
