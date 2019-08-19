@@ -60,7 +60,7 @@ section {
   color: #f9f9f9;
 }
 
-.team .scroll-down, .vitrine .scroll-down {
+.team .scroll-down, .vitrine .scroll-down, .contato .scroll-down {
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -140,6 +140,10 @@ section {
 
 .section.vitrine {
   height: 100vh;
+}
+
+.section.contato {
+  margin-top: 5em;
 }
 
 /*! bulma.io v0.7.5 | MIT License | github.com/jgthms/bulma */
