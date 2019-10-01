@@ -3,8 +3,8 @@ body, html {
   height: 100%;
   -ms-scroll-snap-type: mandatory;
       scroll-snap-type: mandatory;
-  -ms-scroll-snap-points-y: repeat(5vh);
-      scroll-snap-points-y: repeat(5vh);
+  -ms-scroll-snap-points-y: repeat(20vh);
+      scroll-snap-points-y: repeat(20vh);
   -ms-scroll-snap-type: y mandatory;
       scroll-snap-type: y mandatory;
   background-image: -webkit-gradient(linear, right bottom, left top, from(#cc9bb1), color-stop(#c798b2), color-stop(#c296b4), color-stop(#bc93b5), color-stop(#b591b6), color-stop(#b997bc), color-stop(#bd9dc1), color-stop(#c1a3c7), color-stop(#d1b3d3), color-stop(#e0c3df), color-stop(#f0d3ec), to(#ffe4f9));
@@ -144,6 +144,11 @@ section {
 
 .section.contato {
   margin-top: 5em;
+}
+
+.footer {
+  height: 20vh;
+  scroll-snap-align: start;
 }
 
 /*! bulma.io v0.7.5 | MIT License | github.com/jgthms/bulma */
