@@ -19,6 +19,6 @@
   "dependencies": {
     "bulma": "^0.7.5",
     "bulma-carousel": "^4.0.4",
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   }
 }
